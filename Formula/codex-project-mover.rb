@@ -5,6 +5,12 @@ class CodexProjectMover < Formula
   sha256 "d77e0d1f52945efc3accc8537923d313c352be96a402315ae9a2f4ba0168974c"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/sunshineo/homebrew-tap/releases/download/codex-project-mover-1.0.0"
+    rebuild 1
+    sha256 cellar: :any_skip_relocation, arm64_tahoe: "83fbe112a961a4909f81b98becb2712760acaad7aea31d3ecb6672332ebb922b"
+  end
+
   depends_on "rust" => :build
   depends_on arch: :arm64
   depends_on :macos
