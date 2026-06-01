@@ -13,6 +13,12 @@ tap "sunshineo/tap"
 brew "<formula>"
 ```
 
+## Formulae
+
+```bash
+brew install sunshineo/tap/codex-project-mover
+```
+
 ## Documentation
 
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
