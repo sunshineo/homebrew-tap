@@ -15,7 +15,6 @@ jobs:
       matrix:
         os: [ macos-26 ]
     runs-on: ${{ matrix.os }}
-    container: ${{ matrix.container }}
     permissions:
       actions: read
       checks: read
