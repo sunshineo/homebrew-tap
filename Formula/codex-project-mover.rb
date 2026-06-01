@@ -9,7 +9,6 @@ class CodexProjectMover < Formula
     root_url "https://github.com/sunshineo/homebrew-tap/releases/download/codex-project-mover-1.0.0"
     rebuild 1
     sha256 cellar: :any_skip_relocation, arm64_sonoma: "4b52bce615559b998b1ac479838f553d14c48dcf9fc07f25f8d1a1b71dda3fdb"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "83fbe112a961a4909f81b98becb2712760acaad7aea31d3ecb6672332ebb922b"
   end
 
   depends_on "rust" => :build

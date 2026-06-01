@@ -39,7 +39,7 @@ jobs:
       - run: brew test-bot --only-setup
 
       - run: brew test-bot --only-tap-syntax
-      - run: brew test-bot --only-formulae --keep-old codex-project-mover
+      - run: brew test-bot --only-formulae codex-project-mover
         if: github.event_name == 'pull_request'
 
       - name: Upload bottles as artifact
