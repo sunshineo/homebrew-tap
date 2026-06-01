@@ -6,6 +6,8 @@ class CodexProjectMover < Formula
   license "Apache-2.0"
 
   depends_on "rust" => :build
+  depends_on arch: :arm64
+  depends_on :macos
 
   def install
     system "cargo", "install", *std_cargo_args
